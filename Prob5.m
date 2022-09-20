@@ -1,8 +1,3 @@
-%% Assignment 4 Problem 5
-% Group 14
-% Muhammad Shuja, Syed
-% Srikanth, Elkoori Ghantala Karnam
-
 %% Initialization
 clc;
 clear all;
@@ -223,9 +218,3 @@ title('XY Position from Pos Sensor and Acc Sensor');
 xlabel('X Postion');
 ylabel('Y Position');
 legend({'Position Sensor', 'Acceleration Sensor'},'Location','best');
-
-%% Discrepency
-% We see that the Y Position estimate using the acceleration sensor is
-% flipped wrt to true value. This might be happening due to calibration issues in the
-% sensor or acceleration sensor alone is not enough using the kinematic
-% model defined.
